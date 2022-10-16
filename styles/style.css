@@ -9,7 +9,7 @@ White: #FFF
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #1a1a1a;
 }
 
@@ -24,16 +24,18 @@ body {
 
 .logo {
   height: 80px;
-  margin-left: 40px;
 }
 
-.index {
-  margin-right: 40px;
-}
-.index-a {
-  padding-right: 20px;
+.no-deco {
   text-decoration: none;
-  font-size: 22px;
+}
+
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+
+.text-black {
   color: #1a1a1a;
 }
 
@@ -57,6 +59,7 @@ body {
   transform: translate(-50%, -50%);
   font-size: 60px;
 }
+
 .bg-text-second {
   color: #fff;
   position: absolute;
@@ -72,6 +75,15 @@ body {
 
 .container {
   margin: 30px;
+}
+
+.box {
+  width: 300px;
+  margin: 20px;
+}
+
+.text-center {
+  text-align: center;
 }
 .to-flex1 {
   margin-bottom: 50px;
@@ -99,7 +111,7 @@ body {
 .whats-on {
   font-size: 36px;
   margin-bottom: 15px;
-  /* text-decoration: underline #00b172; */
+  position: relative;
 }
 
 .icon {
@@ -107,9 +119,8 @@ body {
 }
 
 .title-h2 > h2 {
-  padding: 10px 15px;
+  padding: 7px 4px;
   border-bottom: 4px solid #00b172;
-  margin-bottom: 120px;
 }
 
 .title-icon {
@@ -128,26 +139,26 @@ body {
   background-color: #00b172;
   margin: 30px;
 }
-.flex21 {
-  margin-bottom: 40px 50px;
-  /* padding-top: 100px;
-  padding-left: 70px;
-  padding-right: 70px; */
-  padding: 100px 70px;
-  /* margin: 30px; */
+.flex-row-around {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.flex22 {
+.mb-50 {
   margin-bottom: 50px;
+}
+
+.m-30 {
   margin: 30px;
+}
+
+.flex-col-around-left {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: left;
   text-align: left;
 }
 
@@ -159,22 +170,97 @@ body {
   width: 300px;
   margin-top: 20px;
 }
-.section2 .p-section2 {
-  color: #fff;
-}
-.text-2 {
-  color: #fff;
-}
-.text-2-b-title {
-  font-size: 36px;
-  margin-bottom: 15px;
-}
-.text-2-size {
-  color: white;
-  font-size: 34px;
+
+.underline-white {
+  padding: 7px 4px;
+  border-bottom: 4px solid #fff;
 }
 
-.title-h2-2 {
-  padding: 10px 15px;
-  border-bottom: 4px solid #fff;
+/* ---------------------------------------------------- */
+
+.text-xs {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+}
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+.text-base {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+.text-lg {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+}
+.text-xl {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+.text-4xl {
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+}
+.text-5xl {
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+}
+.text-6xl {
+  font-size: 3.75rem; /* 60px */
+  line-height: 1;
+}
+.text-7xl {
+  font-size: 4.5rem; /* 72px */
+  line-height: 1;
+}
+.text-8xl {
+  font-size: 6rem; /* 96px */
+  line-height: 1;
+}
+.text-9xl {
+  font-size: 8rem; /* 128px */
+  line-height: 1;
+}
+
+/* -------------------------- MARGIN ----------------------------- */
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+/* ------------------------- PADING ----------------------------- */
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+/* -------------------------- TEXT ------------------------------ */
+
+.text-white {
+  color: #fff;
 }
